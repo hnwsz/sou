@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-siteapp">
+    <link rel="icon" href="icon/Logo.ico">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="full-screen" content="yes"><!--UC强制全屏-->
+    <meta name="browsermode" content="application"><!--UC应用模式-->
+    <meta name="x5-fullscreen" content="true"><!--QQ强制全屏-->
+    <meta name="x5-page-mode" content="app"><!--QQ应用模式-->
+    <title>轻主页</title>
+    <script src="https://cdn.jsdelivr.net/gh/hnwsz/sou/js/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/hnwsz/sou/js/jQuery.rTabs.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/hnwsz/sou/js/js.cookie.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/hnwsz/sou/js/sou.js"></script>
+    <script src="https://at.alicdn.com/t/font_1775377_71bn9tlw01.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/hnwsz/sou/css/sou.css">
+</head>
+<body>
+
+<!-- 侧栏 -->
+<div id="menu"><i></i></div>
+
+<div class="side closed">
+
+    <div class="tab-nav j-tab-nav">
+
+        <a href="javascript:void(0);" class="current">书签</a>
+
+        <a href="javascript:void(0);">设置</a>
+
+        <a href="javascript:void(0);">我的</a>
+
+    </div>
+
+    <div class="tab-con">
+
+        <div class="j-tab-con">
+            <!--书签-->
+            <div class="tab-con-item" style="display:block;">
+
+                <div class="list">
+                    <ul>
+          <!------>
+            <li class="title"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-wangluo"></use></svg> 外网</li>
+            <li><a rel="nofollow" href="https://ac.scmor.com/" target="_blank"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-google1"></use></svg>谷歌镜像</a></li>
+            <li><a rel="nofollow" href="https://scholar.mypan.workers.dev" target="_blank"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-google-scholar"></use></svg>谷歌学术</a></li>
+            <li><a rel="nofollow" href="https://i-research.edu.eu.org/" target="_blank"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-keyanban"></use></svg>爱科研</a></li>
+            <li><a rel="nofollow" href="https://siguso.com/google/" target="_blank"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-icon-activity"></use></svg>思谷学术</a></li>
+            <li><a rel="nofollow" href="https://proxy.netptop.com/" target="_blank"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-vpn"></use></svg>网站代理</a></li>
+            <li><a rel="nofollow" href="https://www.jinzhao.wiki/" target="_blank"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-wiki"></use></svg>维基百科</a></li>
+          <!------>
+            <li class="title"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-sousuo-copy"></use></svg> 搜索引擎</li>
+            <li><a rel="nofollow" href="https://www.google.com/" target="_blank"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-google"></use></svg>Google</a></li>
+            <li><a rel="nofollow" href="https://duckduckgo.com/" target="_blank"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-duck"></use></svg>DuckGo</a></li>
+            <li><a rel="nofollow" href="https://www.bing.com/" target="_blank"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-bing"></use></svg>Bing</a></li>
+            <li><a rel="nofollow" href="https://baidu.com/?tn=simple" target="_blank"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-baidu"></use></svg>百度</a></li>
+            <li><a rel="nofollow" href="https://www.sogou.com/" target="_blank"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-sougou"></use></svg>搜狗</a></li>
+            <li><a rel="nofollow" href="https://mijisou.com/" target="_blank"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-miji"></use></svg>秘迹</a></li>
+            <li><a rel="nofollow" href="https://www.dogedoge.com/" target="_blank"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-gougou"></use></svg>多吉</a></li>
+          <!------>
+            <li class="title"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-shipin"></use></svg> 视频媒体</li>
+            <li><a rel="nofollow" href="https://www.youtube.com/" target="_blank"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-Youtube"></use>
+</svg> Youtube</a></li>
+            <li><a rel="nofollow" href="https://v.qq.com/" target="_blank"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-tengxunshipin"></use></svg>腾讯视频</a></li>
+            <li><a rel="nofollow" href="https://www.youku.com/" target="_blank"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-youku"></use></svg>优酷</a></li>
+            <li><a rel="nofollow" href="https://www.iqiyi.com/" target="_blank"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-aiqiyi"></use></svg>爱奇艺</a></li>
+            <li><a rel="nofollow" href="http://www.zmz2019.com/" target="_blank"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-zimu"></use></svg>字幕组</a></li>
+            <li><a rel="nofollow" href="https://www.bilibili.com/" target="_blank"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-bilibili"></use></svg>哔哩哔哩</a></li>
+          <!------>
+            <li class="title"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-msg"></use></svg> 社交资讯</li>
+            <li><a rel="nofollow" href="https://www.weibo.com" target="_blank"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-weibo"></use></svg>微博</a></li>
+            <li><a rel="nofollow" href="https://www.zhihu.com/" target="_blank"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-zhihu"></use></svg>知乎</a></li>
+            <li><a rel="nofollow" href="https://www.douban.com/" target="_blank"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-douban"></use></svg>豆瓣</a></li>
+            <li><a rel="nofollow" href="https://www.jianshu.com/" target="_blank"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-jianshu"></use></svg>简书</a></li>
+            <li><a rel="nofollow" href="https://www.instagram.com" target="_blank"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-instagram"></use></svg>Instagram</a></li>
+            <li><a rel="nofollow" href="https://www.twitter.com" target="_blank"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-Twitter"></use></svg>Twitter</a></li>
+            <li><a rel="nofollow" href="https://www.facebook.com" target="_blank"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-Facebook"></use></svg>Facebook</a></li>
+            <!------>
+            <li class="title"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-tool1"></use></svg> 工具</li>
+            <li><a rel="nofollow" href="https://tools.miku.ac/" target="_blank"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-tool"></use></svg>Miku工具</a></li>
+            <li><a rel="nofollow" href="https://translate.google.cn/?hl=zh-CN" target="_blank"><svg class="icon" aria-hidden="true"><use xlink:href="#icon--alphabetlanguagelettertranslateword"></use></svg>谷歌翻译</a></li>
+            <li><a rel="nofollow" href="https://fanyi.baidu.com/" target="_blank"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-baidufanyi"></use></svg>百度翻译</a></li>
+            <li><a rel="nofollow" href="http://www.slimego.cn/" target="_blank"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-shilaimu"></use></svg>史莱姆</a></li>
+            <li><a rel="nofollow" href="https://rss.imno.cn/" target="_blank"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-social-feedly"></use></svg>RSS</a></li>         
+            <li><a rel="nofollow" href="http://www.mdeditor.com/" target="_blank"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-md"></use></svg>MD编辑器</a></li>
+            <li><a rel="nofollow" href="http://cubic-bezier.com" target="_blank"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-quxian"></use></svg>贝赛尔曲线</a></li>
+            <li><a rel="nofollow" href="https://ping.chinaz.com/" target="_blank"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-pingup"></use></svg>站长Ping</a></li>
+            <li><a rel="nofollow" href="https://apkdl.in/" target="_blank"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-anzhuo"></use></svg>APK下载</a></li>
+            <!------>
+            <li class="title"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-kongzhitai"></use></svg> 开发</li>
+            <li><a rel="nofollow" href="http://www.w3school.com.cn/" target="_blank"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-h"></use></svg>W3school</a></li>
+            <li><a rel="nofollow" href="https://github.com/" target="_blank"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-git"></use></svg>Github</a></li>
+            <li><a rel="nofollow" href="https://fontawesome.com/icons?d=gallery&m=free" target="_blank"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-font-awesome"></use></svg>Font A.</a></li>
+            <li><a rel="nofollow" href="https://msdn.itellyou.cn/" target="_blank"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-windows-100"></use></svg>MSDN下载</a></li>
+            <li><a rel="nofollow" href="https://dash.cloudflare.com/" target="_blank"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-cloudflare-"></use></svg>Cloudflare</a></li>
+                    </ul>
+                </div>
+
+            </div>
+            <!--书签 end-->
+            <!--设置-->
+            <div class="tab-con-item">
+
+                <div class="set">
+                    <!--搜索引擎设置-->
+                    <div class="set_blocks">
+                        <div class="set_blocks_title">搜索引擎</div>
+                        <div class="set_blocks_content">
+                            <div class="se_list">
+                                <table class="se_list_table">
+                                    <tr>
+                                        <td><span class="iconfont iconhome"></span></td>
+                                        <td>百度</td>
+                                        <td>
+                                            <button class="set_se_default" value="baidu"><span
+                                                    class="iconfont iconstrore-add"></span></button>
+                                            &nbsp;
+                                            <button class="edit_se" value="baidu"><span
+                                                    class="iconfont iconbook-edit"></span></button>
+                                            &nbsp;
+                                            <button class="delete_se" value="baidu"><span
+                                                    class="iconfont icondelete"></span></button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td>谷歌</td>
+                                        <td>
+                                            <button class="set_se_default" value="google"><span
+                                                    class="iconfont iconstrore-add"></span></button>
+                                            &nbsp;
+                                            <button class="edit_se" value="google"><span
+                                                    class="iconfont iconbook-edit"></span></button>
+                                            &nbsp;
+                                            <button class="delete_se" value="google"><span
+                                                    class="iconfont icondelete"></span></button>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div class="se_add_preinstall">
+                                <button class="set_se_list_add"><span class="icon iconfont icontianjia"></span>新增
+                                </button>
+                                <button class="set_se_list_preinstall"><span class="icon iconfont iconjinggao"></span>重置
+                                </button>
+                            </div>
+                            <div class="add_content se_add_content" style="display:none;">
+                                <div class="from_items">
+                                    <p><b>顺序:</b></p>
+                                    <input type="hidden" name="key_inhere">
+                                    <input type="number" name="key" placeholder="填入正整数">
+                                </div>
+                                <div class="from_items">
+                                    <p><b>名称:</b></p>
+                                    <input type="text" name="title" placeholder="网站名称">
+                                </div>
+                                <div class="from_items">
+                                    <p><b>网址:</b></p>
+                                    <input type="url" name="url" placeholder="以“https:”或“http:”开头的URL">
+                                </div>
+                                <div class="from_items">
+                                    <p><b>搜索字段名:</b></p>
+                                    <input type="text" name="name" placeholder="URL中“?”后的字段">
+                                </div>
+                                <div class="from_items">
+                                    <p><b>图标:</b></p>
+                                    <input type="text" name="img" placeholder="图片地址">
+                                </div>
+                                <div class="from_items button">
+                                    <button class="se_add_save">保存</button>
+                                    <button class="se_add_cancel">取消</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--搜索引擎设置 end-->
+                    <!--快捷方式设置-->
+                    <div class="set_blocks">
+                        <div class="set_blocks_title">快捷方式</div>
+                        <div class="set_blocks_content">
+                            <div class="quick_list">
+                                <table class="quick_list_table">
+                                    <tr>
+                                        <td>1.&nbsp;</td>
+                                        <td>哔哩哔哩</td>
+                                        <td>
+                                            <button class="edit_quick" value="1">
+                                                <span class="iconfont iconbook-edit"></span>
+                                            </button>
+                                            &nbsp;
+                                            <button class="delete_quick" value="1">
+                                                <span class="iconfont icondelete"></span>
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>2.&nbsp;</td>
+                                        <td>知乎</td>
+                                        <td>
+                                            <button class="edit_quick" value="2">
+                                                <span class="iconfont iconbook-edit"></span>
+                                            </button>
+                                            &nbsp;
+                                            <button class="delete_quick" value="2">
+                                                <span class="iconfont icondelete"></span>
+                                            </button>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div class="se_add_preinstall">
+                                <button class="set_quick_list_add">
+                                    <span class="icon iconfont icontianjia"></span>新增
+                                </button>
+                                <button class="set_quick_list_preinstall">
+                                    <span class="icon iconfont iconjinggao"></span>重置
+                                </button>
+                            </div>
+                            <div class="add_content quick_add_content" style="display:none;">
+                                <div class="from_items">
+                                    <p><b>顺序:</b></p>
+                                    <input type="hidden" name="key_inhere">
+                                    <input type="number" name="key" placeholder="填入正整数">
+                                </div>
+                                <div class="from_items">
+                                    <p><b>名称:</b></p>
+                                    <input type="text" name="title" placeholder="网站名称">
+                                </div>
+                                <div class="from_items">
+                                    <p><b>网址:</b></p>
+                                    <input type="url" name="url" placeholder="以“https:”或“http:”开头的URL">
+                                </div>
+                                <div class="from_items">
+                                    <p><b>图标:</b></p>
+                                    <input type="text" name="img" placeholder="图片地址">
+                                </div>
+                                <div class="from_items button">
+                                    <button class="quick_add_save">保存</button>
+                                    <button class="quick_add_cancel">取消</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--快捷方式设置 end-->
+                </div>
+
+            </div>
+            <!--设置 end-->
+            <!--我的-->
+            <div class="tab-con-item">
+
+                <div class="me">
+                    <p><img src="https://cdn.jsdelivr.net/gh/hnwsz/sou/icon/user.svg"></p>
+                </div>
+                <div class="my_data">
+                    <hr>
+                    <br>
+                    <h3 style="color:black;">数据备份</h3>
+                    <br>
+                    <button id="my_data_in">导入</button>
+                    <button id="my_data_out">导出</button>
+                    <input type="file" id="my_data_file" name="file" style="display: none">
+                </div>
+
+            </div>
+            <!--我的 end-->
+        </div>
+
+    </div>
+
+</div>
+<!-- 侧栏 end -->
+
+<!--搜索框和书签-->
+<div id="content">
+    <div class="con">
+
+        <!--一般搜索框上面都有的图片↓-->
+        <div class="shlogo"></div>
+
+        <div class="sou">
+            <form class="search" action="https://www.baidu.com/s">
+                <img class="se" src="https://cdn.jsdelivr.net/gh/hnwsz/sou/icon/baidu.svg" title="点击切换搜索引擎">
+                <input class="wd" type="text" name="wd" placeholder="请输入搜索内容">
+                <button class="s">
+                    <svg class="icon" style=" width: 21px; height: 21px; opacity: 0.5;" aria-hidden="true"><use xlink:href="#icon-suosou"></use></svg>
+                </button>
+            </form>
+            <div id="word"></div>
+            <div class="search-engine" style="display: none;">
+                <div class="search-engine-head">
+                    <strong class="search-engine-tit">选择搜索引擎：</strong>
+                </div>
+                <ul class="search-engine-list">
+                    <li class="se-li" url="https://www.baidu.com/s" name="wd" img="https://cdn.jsdelivr.net/gh/hnwsz/sou/icon/baidu.svg">
+                        <img src="https://cdn.jsdelivr.net/gh/hnwsz/sou/icon/baidu.svg">百度
+                    </li>
+                    <li class="se-li" url="https://www.google.com/search" name="q" img="https://cdn.jsdelivr.net/gh/hnwsz/sou/icon/google.svg">
+                        <img src="https://cdn.jsdelivr.net/gh/hnwsz/sou/icon/google.svg">谷歌
+                    </li>
+                    <li class="se-li" url="https://quark.sm.cn/s" name="q" img="https://cdn.jsdelivr.net/gh/hnwsz/sou/icon/kuake.svg">
+                        <img src="https://cdn.jsdelivr.net/gh/hnwsz/sou/icon/kuake.svg">夸克
+                    </li>
+                    <li class="se-li" url="https://cn.bing.com/search" name="q" img="https://cdn.jsdelivr.net/gh/hnwsz/sou/icon/bing.svg">
+                        <img src="https://cdn.jsdelivr.net/gh/hnwsz/sou/icon/bing.svg">必应
+                    </li>
+                    <li class="se-li" url="https://mijisou.com" name="q" img="https://cdn.jsdelivr.net/gh/hnwsz/sou/icon/mijisou.svg">
+                        <img src="https://cdn.jsdelivr.net/gh/hnwsz/sou/icon/mijisou.svg">秘迹
+                    </li>
+                    <li class="se-li" url="https://www.sogou.com/web" name="query" img="https://cdn.jsdelivr.net/gh/hnwsz/sou/icon/sougou.svg">
+                        <img src="https://cdn.jsdelivr.net/gh/hnwsz/sou/icon/sougou.svg">搜狗
+                    </li>
+                    <li class="se-li" url="https://www.dogedoge.com/results" name="q" img="https://cdn.jsdelivr.net/gh/hnwsz/sou/icon/doge.svg">
+                        <img src="https://cdn.jsdelivr.net/gh/hnwsz/sou/icon/doge.svg">多吉
+                    </li>
+                    <li class="se-li" url="https://google.9sr.ltd/search" name="q" img="https://cdn.jsdelivr.net/gh/hnwsz/sou/icon/goo.svg">
+                        <img src="https://cdn.jsdelivr.net/gh/hnwsz/sou/icon/goo.svg">镜像
+                    </li>
+                </ul>
+            </div>
+            <div class="quick-div">
+                <ul class="quick-ul">
+                    <!--<li class="quick" data-s="bilibili" title="哔哩哔哩 (゜-゜)つロ 干杯~">
+                        <a href="https://www.bilibili.com/">
+                            <i style="background-image: url(https://cdn.jsdelivr.net/gh/hnwsz/sou/icon/bilibili.png);"></i>
+                            哔哩哔哩
+                        </a>
+                    </li>
+                    <li class="quick" data-s="github" title="GitHub">
+                        <a href="https://github.com/">
+                            <i style="background-image: url(https://cdn.jsdelivr.net/gh/hnwsz/sou/icon/github.png);"></i>
+                            GitHub
+                        </a>
+                    </li>-->
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!--搜索框和书签 end-->
+</body>
+</html>
